@@ -22,7 +22,8 @@ function calculDelivery(total, country) {
     }
 }
 
-    //total = input("Quel est le montant total de la commande ?");
-    //country = input("Quel est le pays de destination ( CH FR ou DE ) ?");
+var total = Number(prompt("Quel est le montant total de la commande ?"));
+var country = prompt("Quel est le pays de destination ( CH FR ou DE ) ?");
 
-    console.log(calculDelivery(50,"DE"))
+console.log(calculDelivery(total,country));
+alert (calculDelivery(total, country))
